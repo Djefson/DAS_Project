@@ -3,13 +3,13 @@
   <BuildingName>ourmodel</BuildingName>
   <EnvironmentName>RUN PERIOD 1</EnvironmentName>
   <WeatherFileLocationTitle>Stuttgart.AP BW DEU SRC-TMYx WMO#=107380</WeatherFileLocationTitle>
-  <ProgramVersion>EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.10.23 15:08</ProgramVersion>
+  <ProgramVersion>EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.10.23 18:46</ProgramVersion>
   <SimulationTimestamp>
     <Date>
       2026-10-23
     </Date>
     <Time>
-      15:08:30
+      18:46:47
     </Time>
   </SimulationTimestamp>
 
@@ -1052,7 +1052,7 @@
   <for>Entire Facility</for>
   <General>
     <name>Value</name>
-    <ProgramVersionAndBuild>EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.10.23 15:08</ProgramVersionAndBuild>
+    <ProgramVersionAndBuild>EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.10.23 18:46</ProgramVersionAndBuild>
     <Runperiod>RUN PERIOD 1</Runperiod>
     <WeatherFile>Stuttgart.AP BW DEU SRC-TMYx WMO#=107380</WeatherFile>
     <Latitude units="deg">
