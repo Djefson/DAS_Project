@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eppd"
+version = "0.1.1"
+description = "EnergyPlus Python Data Processor - pandas-based library for IDF manipulation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Bharath Karambakkam", email = "eppdmodeler@gmail.com"}
+]
+keywords = ["energyplus", "idf", "building-simulation", "energy-modeling"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "pandas>=3.0.1",
+    "numpy>=2.4.3",
+    "xmljson>=0.2.1",
+    "pyarrow>=23.0.1",
+    "tqdm>=4.67.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.6",
+    "black>=22.0",
+    "mypy>=0.950",
+]
+calibration = [
+    "scipy>=1.17.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/eppdmodeler/eppd"
+Repository = "https://github.com/eppdmodeler/eppd"
+Issues = "https://github.com/eppdmodeler/eppd/issues"
+
+[tool.setuptools]
+packages = ["eppd", "eppd.core", "eppd.simulation", "eppd.postprocess", "eppd.systems"]
+
+[tool.setuptools.package-data]
+eppd = ["*.idf"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+
+[dependency-groups]
+dev = [
+    "ipython>=9.10.0",
+    "ipythonclipboard>=1.0b2",
+    "jupyterlab>=4.5.6",
+    "jupyterlab-rise>=0.43.1",
+    "matplotlib>=3.10.8",
+]

@@ -1,0 +1,14 @@
+# EPPD Configuration File
+#
+# This file configures the EnergyPlus executable path for EPPD.
+
+[energyplus]
+# REQUIRED: Full path to the EnergyPlus executable (include the file name).
+# Examples:
+#   - /usr/local/EnergyPlus-25-2-0/energyplus     (Linux)
+#   - /Applications/EnergyPlus-25-2-0/energyplus  (macOS)
+#   - C:/EnergyPlusV25-2-0/energyplus.exe         (Windows)
+energyplus_location = "/usr/local/EnergyPlus-26-1-0/energyplus"
+
+# OPTIONAL: Full path to weather files folder
+# weatherfiles_folder = "/path/to/weather/files"

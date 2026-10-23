@@ -1,0 +1,13 @@
+pandas>=3.0.1
+numpy>=2.4.3
+xmljson>=0.2.1
+pyarrow>=23.0.1
+tqdm>=4.67.3
+
+[calibration]
+scipy>=1.17.0
+
+[dev]
+ruff>=0.6
+black>=22.0
+mypy>=0.950
