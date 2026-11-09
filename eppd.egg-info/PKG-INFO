@@ -2,7 +2,6 @@ Metadata-Version: 2.4
 Name: eppd
 Version: 0.1.1
 Summary: EnergyPlus Python Data Processor - pandas-based library for IDF manipulation
-Author-email: Bharath Karambakkam <eppdmodeler@gmail.com>
 License: GPL-3.0-or-later
 Project-URL: Homepage, https://github.com/eppdmodeler/eppd
 Project-URL: Repository, https://github.com/eppdmodeler/eppd
