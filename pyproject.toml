@@ -9,9 +9,6 @@ description = "EnergyPlus Python Data Processor - pandas-based library for IDF m
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "GPL-3.0-or-later"}
-authors = [
-    {name = "Bharath Karambakkam", email = "eppdmodeler@gmail.com"}
-]
 keywords = ["energyplus", "idf", "building-simulation", "energy-modeling"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -38,11 +35,6 @@ dev = [
 calibration = [
     "scipy>=1.17.0",
 ]
-
-[project.urls]
-Homepage = "https://github.com/eppdmodeler/eppd"
-Repository = "https://github.com/eppdmodeler/eppd"
-Issues = "https://github.com/eppdmodeler/eppd/issues"
 
 [tool.setuptools]
 packages = ["eppd", "eppd.core", "eppd.simulation", "eppd.postprocess", "eppd.systems"]
